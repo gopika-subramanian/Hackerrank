@@ -8,10 +8,10 @@ driver.get('https://www.flipkart.com/')
 
 #LOGINBEGIN
 logininp=driver.find_element_by_xpath('/html/body/div[2]/div/div/div/div/div[2]/div/form/div[1]/input')
-logininp.send_keys('durgasubramanian94@gmail.com')
+logininp.send_keys('test@gmail.com')
 
 passinp=driver.find_element_by_xpath('/html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input')
-passinp.send_keys('svdsgk6')
+passinp.send_keys('password')
 
 driver.find_element_by_xpath('/html/body/div[2]/div/div/div/div/div[2]/div/form/div[4]/button').click()
 #LOGINEND
